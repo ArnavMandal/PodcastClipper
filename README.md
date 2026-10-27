@@ -2,12 +2,6 @@
 
 **Turn a full-length podcast into vertical, subtitled, speaker-tracked short clips for TikTok, YouTube Shorts, and Reels.**
 
-![AI Podcast Clipper thumbnail](thumbnail.png)
-
-Upload an MP4. A GPU worker transcribes it, an LLM picks the most engaging question-and-answer moments, a speaker-detection model finds who is talking in every frame, and the video is re-framed to 9:16 with burned-in captions. Users pay per clip with Stripe-purchased credits.
-
-📺 Original tutorial: [YouTube](https://youtu.be/PeFZcvWucoU) · by [Andreas Trolle](https://www.andreastrolle.com/)
-
 ---
 
 ## Table of contents
@@ -352,8 +346,6 @@ Useful extras: `npm run db:studio` (browse the DB), `npm run typecheck`, `npm ru
 ---
 
 ## Credits
-
-- Original project & tutorial: [Andreas Trolle](https://www.andreastrolle.com/) ([video](https://youtu.be/PeFZcvWucoU))
 - [WhisperX](https://github.com/m-bain/whisperX) · [LR-ASD](https://github.com/Junhua-Liao/LR-ASD) · [create-t3-app](https://create.t3.gg)
 - Test videos: [MI6 Secret Agent Talks About the World's Darkest Secrets](https://www.youtube.com/watch?v=-vMgbJ6WqN4), [Janney Sanchez, Ep.198](https://www.youtube.com/watch?v=SOG0GmKts_I)
 
